@@ -1,0 +1,598 @@
+/**************    HEADER    *************/
+
+body {
+  zoom:80%;
+  margin: 0px;
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-image: url("img/baniere.png");
+  background-repeat: no-repeat;
+  background-size : cover;
+  height: 300px;
+  border-bottom: black 2px solid;
+}
+
+.div{
+  position: absolute;
+  height: 270px;
+  width: 100%;
+}
+
+.bandeau{
+  position: absolute;
+  font-size: 22px;
+  width: 200px;
+  right: 250px;
+  background-color: white;
+  text-align: center;
+  height: 35px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.connexion{
+  width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.connexion:hover{
+  background-color: white;
+  color: black;
+}
+
+.inscription{
+  width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 80px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.inscription:hover{
+  background-color: white;
+  color: black;
+}
+
+.leaderboard{
+  width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 140px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.leaderboard:hover{
+  background-color: white;
+  color: black;
+}
+
+.leaderboard2{
+    width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 160px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.leaderboard2:hover{
+  background-color: white;
+  color: black;
+}
+
+.menu{
+  list-style-type: none;
+  display: inline-block;
+  margin-bottom: -10px;
+  margin-top: 275px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.lienMenu{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  margin-left: -30px;
+}
+
+.itemMenu{
+  float: left;
+  text-align: center;
+  line-height: 47px;
+  border: black solid 2px;
+  border-radius: 50px;
+  background-color: grey;
+  width: 250px;
+  height: 50px;
+  margin-left: -10px;
+}
+
+.lienMenu:hover{
+  color: white;
+}
+
+.itemMenu:hover{
+  background-color: #0d0d0d;
+  border-color: #0d0d0d;
+  animation-name : flotter ;
+  animation-duration : 0.5s;
+  animation-iteration-count : infinite ;
+  animation-direction : alternate ;
+}
+
+.image{
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin-left: 40px;
+  margin-top: 7px;
+}
+
+.imageHS{
+  float: left;
+  width: 55px;
+  height: 55px;
+  margin-left: 30px;
+  margin-top: -3px;
+}
+
+#spanLol{
+  margin-right: -30px;
+  font-size: 18px;
+}
+
+span img{
+  padding-left: 15px;
+  margin-right: -20px;
+}
+
+#lol{
+  margin-left: 200px;
+}
+
+#espace{
+  width: 400px;
+  border-radius:8px;
+  margin-left: 130px;
+}
+
+#espace .lienMenu{
+  margin-left:-120px;
+}
+
+#espace img{
+  padding-left: 160px;
+}
+
+
+
+/* Ici les animations */
+@keyframes flotter {
+    from {
+        box-shadow : -5px -5px 4px black ;
+        margin-top : 6px ;
+    }
+    20% {
+        box-shadow : -4px -4px 4px black ;
+        margin-top : 5px ;
+    }
+    40% {
+        box-shadow : -3px -3px 4px black ;
+        margin-top : 4px ;
+    }
+    60% {
+        box-shadow : -2px -2px 4px black ;
+        margin-top : 3px ;
+    }
+    80% {
+        box-shadow : -1px -1px 4px black ;
+        margin-top : 2px ;
+    }
+    to {
+        box-shadow : 0px 0px 4px black ;
+        margin-top : 1px ;
+    }
+}
+
+
+/****************************************/
+
+.corps{
+  background-image: url("img/fond_lol.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: auto;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.page {
+  height: auto;
+  width: 1300px;
+  margin: auto;
+  top: 600px;
+  left: 17%;
+  padding-bottom: 20px;
+  padding-top: 400px;
+}
+
+.logolol{
+  position: absolute;
+  height: 250px;
+  width: 600px;
+  left: 33%;
+  top: 385px;
+}
+
+.xayah{
+  position: absolute;
+  width: 150px;
+  height: 300px;
+  left: 13%;
+  top: 480px;
+}
+
+.twitch{
+  border: black 10px solid;
+  border-radius: 20px;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.inlineMiddle{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inlineSV {
+  display: inline-block;
+}
+
+.corps h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+.paris_parent{
+  border: 2px solid black;
+  overflow: hidden;
+  height: 500px;
+  width: 900px;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: relative;
+  border-radius: 50px;
+}
+
+.paris{
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  overflow: auto;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: -21px;
+  left: 0px;
+}
+
+.paris h1{
+  text-align: center;
+}
+
+.paris input{
+  outline: none;
+  border: none;
+  background: none;
+  background-color: #1a1a1a;
+  color: white;
+  border: 2px white solid;
+  padding: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 17px;
+  border-radius: 15px;
+}
+
+.paris input:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.chat_parent{
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 2px solid black;
+  height: 500px;
+  width: 350px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.chat{
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0px;
+  padding-top: 60px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: -21px;
+  left: 0px;
+}
+
+.chat h1{
+  font-size: 25px;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  margin-top: -45px; 
+  margin-bottom: 15px;
+  padding-right: 30px;
+}
+
+.div_message{
+  background-color: #808080;
+  width: 300px;
+  height: auto;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  border: black solid 2px;
+  border-radius: 30px;
+}
+
+.message{
+  margin: 0px;
+  color: white;
+  font-family: "Comic sans MS";
+  font-size: 15px;
+}
+
+.auteur{
+  font-weight: bold;
+  font-size: 17px;
+  margin: 0px;
+}
+
+.calendrier_parent{
+  border: 2px solid black;
+  height: 500px;
+  width: 1265px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+.calendrier{
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  overflow: auto;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: -21px;
+  left: 0px;
+}
+
+#inline{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.equipe{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+#equ2{
+  margin-left: 200px;
+}
+
+.match{
+  border-bottom: 5px dotted black;
+}
+
+.equipe p{
+  margin-left: 70px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.equipe input{
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+#textArea{
+  color: white;
+  padding-left: 20px;
+  padding-right: 70px;
+  outline: none;
+  background-color: #404040;
+  border: white 2px solid;
+  border-radius: 30px;
+  width: 300px;
+  height: 10%;
+  margin-left: 15px;
+}
+
+#textArea::placeholder{
+  color: white;
+}
+
+#envoyer{
+  width: 23%;
+  height: 10%;
+  margin-left: -75px;
+  color: white;
+  outline: none;
+  background-color: #1a1a1a;
+  border: white 2px solid;
+  border-radius: 30px;
+}
+
+#envoyer:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.ecran{
+  width: 100%;
+  height: 86%;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+.jour{
+  text-align: center;
+  border-bottom: 5px dotted black;
+}
+
+.e1{
+  margin-right: 100px;
+}
+
+.e2{
+  margin-left: 100px;
+}
+
+.eq{
+  display: inline-block;
+  margin-left: 320px;
+}
+
+.administration{
+  border: 2px solid black;
+  height: 400px;
+  width: 1265px;
+  margin-left: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 50px;
+  overflow: auto;
+}
+
+.administration h1{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.administration h2{
+  float: left;
+}
+
+.administration input{
+  margin-left: 165px;
+  outline: none;
+}
+
+.administration .valider{
+  margin-top: 35px;
+  margin-left: 44%;
+  width: 150px;
+  background-color: #1a1a1a;
+  color: white;
+  border: 2px white solid;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.administration .valider:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.administration p{
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.administration #jour_debut{
+  width: 150px;
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  text-align: center;
+  border: 2px black solid;
+}
+
+.administration #jour_fin{
+  margin-left: 161px;
+  width: 150px;
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  text-align: center;
+  border: 2px black solid;
+}
+
+.administration #debut{
+  margin-left: 100px;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  text-align: center;
+  border: 2px black solid;
+}
+
+.administration #fin{
+  margin-left: 100px;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+  text-align: center;
+  border: 2px black solid;
+}
+

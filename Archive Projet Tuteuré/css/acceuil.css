@@ -1,0 +1,360 @@
+  /**************    HEADER    *************/
+
+body {
+  zoom:80%;
+  margin: 0px;
+  background-color: #333333;
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+  background: linear-gradient(to bottom right, black, lightgrey);
+  background-repeat: no-repeat;
+}
+
+header {
+  background-image: url("img/baniere.png");
+  background-repeat: no-repeat;
+  background-size : cover;
+  height: 300px;
+  border-bottom: black 2px solid;
+}
+
+.div{
+  position: absolute;
+  height: 270px;
+  width: 100%;
+}
+
+.bandeau{
+  position: absolute;
+  font-size: 22px;
+  width: 200px;
+  right: 250px;
+  background-color: white;
+  text-align: center;
+  height: 35px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.connexion{
+  width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.connexion:hover{
+  background-color: white;
+  color: black;
+}
+
+.inscription{
+  width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 80px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.inscription:hover{
+  background-color: white;
+  color: black;
+}
+
+.leaderboard{
+  width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 140px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.leaderboard:hover{
+  background-color: white;
+  color: black;
+}
+
+.leaderboard2{
+    width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 160px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.leaderboard2:hover{
+  background-color: white;
+  color: black;
+}
+
+.menu{
+  list-style-type: none;
+  display: inline-block;
+  margin-bottom: -10px;
+  margin-top: 275px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.lienMenu{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  margin-left: -30px;
+}
+
+.itemMenu{
+  float: left;
+  text-align: center;
+  line-height: 47px;
+  border: black solid 2px;
+  border-radius: 50px;
+  background-color: grey;
+  width: 250px;
+  height: 50px;
+  margin-left: -10px;
+}
+
+.lienMenu:hover{
+  color: white;
+}
+
+.itemMenu:hover{
+  background-color: #0d0d0d;
+  border-color: #0d0d0d;
+  animation-name : flotter ;
+  animation-duration : 0.5s;
+  animation-iteration-count : infinite ;
+  animation-direction : alternate ;
+}
+
+.image{
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin-left: 40px;
+  margin-top: 7px;
+}
+
+.imageHS{
+  float: left;
+  width: 55px;
+  height: 55px;
+  margin-left: 30px;
+  margin-top: -3px;
+}
+
+#spanLol{
+  margin-right: -30px;
+  font-size: 18px;
+}
+
+span img{
+  padding-left: 15px;
+  margin-right: -20px;
+}
+
+#lol{
+  margin-left: 200px;
+}
+
+#espace{
+  width: 400px;
+  border-radius:8px;
+  margin-left: 130px;
+}
+
+#espace .lienMenu{
+  margin-left: -120px;
+}
+
+#espace img{
+  padding-left: 160px;
+}
+
+
+
+/* Ici les animations */
+@keyframes flotter {
+    from {
+        box-shadow : -5px -5px 4px black ;
+        margin-top : 6px ;
+    }
+    20% {
+        box-shadow : -4px -4px 4px black ;
+        margin-top : 5px ;
+    }
+    40% {
+        box-shadow : -3px -3px 4px black ;
+        margin-top : 4px ;
+    }
+    60% {
+        box-shadow : -2px -2px 4px black ;
+        margin-top : 3px ;
+    }
+    80% {
+        box-shadow : -1px -1px 4px black ;
+        margin-top : 2px ;
+    }
+    to {
+        box-shadow : 0px 0px 4px black ;
+        margin-top : 1px ;
+    }
+}
+
+
+/****************************************/
+
+.corps{
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  background-image: url("img/fond.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1{
+  margin-top: 0px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  border-bottom: 5px white dotted;
+}
+
+p{
+  text-indent: 60px;
+  padding-top: 30px;
+  color: white;
+  font-family: "Comic sans MS";
+  text-align: justify;
+  line-height: 35px;
+  font-size: 22px;
+}
+
+.text{
+  width: 1000px;
+  margin: auto;
+  color: white;
+  border: 2px white solid;
+  padding: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 50px;
+}
+
+.presentation{
+  margin-top: 100px;
+}
+
+.pres_lol{
+  position: absolute;
+  width: 50px;
+  top: 490px;
+  left: 500px;
+}
+
+.pres_ow{
+  position: absolute;
+  width: 50px;
+  left: 660px;
+  top: 490px;
+}
+
+.pres_hs{
+  position: absolute;
+  width: 80px;
+  right: 650px;
+}
+
+.pres_dota{
+  position: absolute;
+  width: 50px;
+  right: 500px;
+  top: 490px;
+}
+
+.commentCM{
+  margin-top: 100px;
+  padding-bottom: 60px;
+}
+
+.question{
+  margin-top: 40px;
+}
+
+.question h1{
+  border: none;
+  padding-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.contact{
+  width: 300px;
+  margin-left: 100px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.contact:hover{
+  background-color: white;
+  color: black;
+}
+
+.questionContact{
+  width: 1080px;
+  margin: auto;
+  color: white;
+  border: 2px white solid;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 50px;
+}
+
+.inline{
+  display: inline-block;
+}
+
+

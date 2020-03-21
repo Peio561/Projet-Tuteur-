@@ -1,0 +1,372 @@
+/**************    HEADER    *************/
+
+body {
+  zoom:80%;
+  margin: 0px;
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-image: url("img/baniere.png");
+  background-repeat: no-repeat;
+  background-size : cover;
+  height: 300px;
+  border-bottom: black 2px solid;
+}
+
+.div{
+  position: absolute;
+  height: 270px;
+  width: 100%;
+}
+
+.bandeau{
+  position: absolute;
+  font-size: 22px;
+  width: 200px;
+  right: 250px;
+  background-color: white;
+  text-align: center;
+  height: 35px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.connexion{
+  width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.connexion:hover{
+  background-color: white;
+  color: black;
+}
+
+.inscription{
+  width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 80px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.inscription:hover{
+  background-color: white;
+  color: black;
+}
+
+.leaderboard{
+  width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 140px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.leaderboard:hover{
+  background-color: white;
+  color: black;
+}
+
+.leaderboard2{
+    width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 160px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.leaderboard2:hover{
+  background-color: white;
+  color: black;
+}
+
+
+.menu{
+  list-style-type: none;
+  display: inline-block;
+  margin-bottom: -10px;
+  margin-top: 275px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.lienMenu{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  margin-left: -30px;
+}
+
+.itemMenu{
+  float: left;
+  text-align: center;
+  line-height: 47px;
+  border: black solid 2px;
+  border-radius: 50px;
+  background-color: grey;
+  width: 250px;
+  height: 50px;
+  margin-left: -10px;
+}
+
+.lienMenu:hover{
+  color: white;
+}
+
+.itemMenu:hover{
+  background-color: #0d0d0d;
+  border-color: #0d0d0d;
+  animation-name : flotter ;
+  animation-duration : 0.5s;
+  animation-iteration-count : infinite ;
+  animation-direction : alternate ;
+}
+
+.image{
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin-left: 40px;
+  margin-top: 7px;
+}
+
+.imageHS{
+  float: left;
+  width: 55px;
+  height: 55px;
+  margin-left: 30px;
+  margin-top: -3px;
+}
+
+#spanLol{
+  margin-right: -30px;
+  font-size: 18px;
+}
+
+span img{
+  padding-left: 15px;
+  margin-right: -20px;
+}
+
+#lol{
+  margin-left: 200px;
+}
+
+#espace{
+  width: 400px;
+  border-radius:8px;
+  margin-left: 130px;
+}
+
+#espace .lienMenu{
+  margin-left:-120px;
+}
+
+#espace img{
+  padding-left: 160px;
+}
+
+
+
+/* Ici les animations */
+@keyframes flotter {
+    from {
+        box-shadow : -5px -5px 4px black ;
+        margin-top : 6px ;
+    }
+    20% {
+        box-shadow : -4px -4px 4px black ;
+        margin-top : 5px ;
+    }
+    40% {
+        box-shadow : -3px -3px 4px black ;
+        margin-top : 4px ;
+    }
+    60% {
+        box-shadow : -2px -2px 4px black ;
+        margin-top : 3px ;
+    }
+    80% {
+        box-shadow : -1px -1px 4px black ;
+        margin-top : 2px ;
+    }
+    to {
+        box-shadow : 0px 0px 4px black ;
+        margin-top : 1px ;
+    }
+}
+
+
+
+/******************** Config Compte *********************/
+#corpsConfig{
+  background-image: url("img/fond.png");
+  width : 100%;
+  height : auto;
+  display : flex;
+  flex-direction: column;
+}
+
+#DivConfig{
+  background-color: rgba(255, 255, 255, 0.8);
+  width : 35%;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  border : 3px solid black;
+  border-radius : 80px;
+}
+
+#TitreConfig{
+  text-align: center;
+}
+
+.form{
+  display : flex;
+  flex-direction: column;
+  margin-top : 50px;
+}
+
+.boutonText{
+  font-size: 17px;
+  padding-left: 20px;
+  outline: none;
+  background-color: #b3b3b3;
+  width : 500px;
+  height : 50px;
+  margin-left: 80px;
+  margin-bottom : 15px;
+  margin-top : 20px;
+  color: black;
+  text-decoration: none;
+  border: black solid 2px;
+  border-radius: 20px;
+}
+
+.boutonText::placeholder{
+  color: black;
+}
+
+#ConfirmerMdp{
+  margin-top : 0px;
+}
+
+.divLabelInput{
+  display:flex;
+  flex-direction: column-reverse;
+  margin-top : 20px;
+}
+
+.divLabelInput input{
+  width : 300px;
+  margin-bottom : 10px;
+  margin-top : 10px;
+}
+
+.divLabelInput p{
+  margin-bottom : 50px;
+  margin-top : 20px;
+  font-size : 20px;
+}
+
+#Mail{
+  display : flex;
+  flex-direction: row;
+}
+
+#MailArea{
+  width : 300px;
+}
+
+.Valider{
+  display: inline-block;
+  outline: none;
+  font-size: 17px;
+  border: none;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 45px;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  border: black 2px solid;
+}
+
+.Valider:hover{
+  background-color: white;
+  color: black;
+}
+
+.val{
+  background-color: #29a329;
+}
+
+.val:hover{
+  background-color: #29a329;
+  color: white;
+}
+
+.annuler{
+  background-color: red;
+}
+
+.annuler:hover{
+  background-color: red;
+  color: white;
+}
+
+#Retour {
+  margin-right : 15%;
+}
+
+.erreur{
+  text-align: center;
+  color: red;
+  font-size: 25px;
+}
+
+label{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

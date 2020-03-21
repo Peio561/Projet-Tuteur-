@@ -1,0 +1,344 @@
+/**************    HEADER    *************/
+
+body {
+  zoom:80%;
+  margin: 0px;
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-image: url("img/baniere.png");
+  background-repeat: no-repeat;
+  background-size : cover;
+  height: 300px;
+  border-bottom: black 2px solid;
+}
+
+.div{
+  position: absolute;
+  height: 270px;
+  width: 100%;
+}
+
+.bandeau{
+  position: absolute;
+  font-size: 22px;
+  width: 200px;
+  right: 250px;
+  background-color: white;
+  text-align: center;
+  height: 35px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.connexion{
+  width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.connexion:hover{
+  background-color: white;
+  color: black;
+}
+
+.inscription{
+  width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 80px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.inscription:hover{
+  background-color: white;
+  color: black;
+}
+
+.leaderboard{
+  width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 140px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.leaderboard:hover{
+  background-color: white;
+  color: black;
+}
+
+.leaderboard2{
+    width: 80px;
+  position: absolute;
+  right: 10px;
+  top: 160px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: white solid 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.leaderboard2:hover{
+  background-color: white;
+  color: black;
+}
+
+.menu{
+  list-style-type: none;
+  display: inline-block;
+  margin-bottom: -10px;
+  margin-top: 275px;
+  font-size: 25px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.lienMenu{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  margin-left: -30px;
+}
+
+.itemMenu{
+  float: left;
+  text-align: center;
+  line-height: 47px;
+  border: black solid 2px;
+  border-radius: 50px;
+  background-color: grey;
+  width: 250px;
+  height: 50px;
+  margin-left: -10px;
+}
+
+.lienMenu:hover{
+  color: white;
+}
+
+.itemMenu:hover{
+  background-color: #0d0d0d;
+  border-color: #0d0d0d;
+  animation-name : flotter ;
+  animation-duration : 0.5s;
+  animation-iteration-count : infinite ;
+  animation-direction : alternate ;
+}
+
+.image{
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin-left: 40px;
+  margin-top: 7px;
+}
+
+.imageHS{
+  float: left;
+  width: 55px;
+  height: 55px;
+  margin-left: 30px;
+  margin-top: -3px;
+}
+
+#spanLol{
+  margin-right: -30px;
+  font-size: 18px;
+}
+
+span img{
+  padding-left: 15px;
+  margin-right: -20px;
+}
+
+#lol{
+  margin-left: 200px;
+}
+
+#espace{
+  width: 400px;
+  border-radius:8px;
+  margin-left: 130px;
+}
+
+#espace .lienMenu{
+  margin-left:-120px;
+}
+
+#espace img{
+  padding-left: 160px;
+}
+
+
+
+/* Ici les animations */
+@keyframes flotter {
+    from {
+        box-shadow : -5px -5px 4px black ;
+        margin-top : 6px ;
+    }
+    20% {
+        box-shadow : -4px -4px 4px black ;
+        margin-top : 5px ;
+    }
+    40% {
+        box-shadow : -3px -3px 4px black ;
+        margin-top : 4px ;
+    }
+    60% {
+        box-shadow : -2px -2px 4px black ;
+        margin-top : 3px ;
+    }
+    80% {
+        box-shadow : -1px -1px 4px black ;
+        margin-top : 2px ;
+    }
+    to {
+        box-shadow : 0px 0px 4px black ;
+        margin-top : 1px ;
+    }
+}
+
+
+/****************************************/
+
+.corps{
+  width: 100%;
+  height: auto;
+  background-image: url("img/fond.png");
+  background-attachment: fixed;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.form{
+  width: 95%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulaire{
+  width: 40%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border : 3px solid black;
+  border-radius : 80px;
+}
+
+.formulaire h1{
+  margin: 0px;
+  text-align: center;
+  font-size: 48px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mail{
+  width: 90%;
+  height: 40px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  padding-left: 20px;
+  outline: none;
+  background-color: #b3b3b3;
+  color: black;
+  text-decoration: none;
+  border: black solid 2px;
+  border-radius: 20px;
+}
+
+.mail::placeholder{
+  color: black;
+}
+
+.message{
+  font-family: arial;
+  width: 93%;
+  margin: auto;
+  height: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  outline: none;
+  background-color: #b3b3b3;
+  color: black;
+  text-decoration: none;
+  border: black solid 2px;
+  border-radius: 30px;
+  vertical-align: baseline;
+  overflow: auto;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.message::placeholder{
+  color: black;
+}
+
+.valider{
+  outline: none;
+  font-size: 17px;
+  border: none;
+  margin-left: 32%;
+  width: 250px;
+  height: 45px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  border: black 2px solid;
+  background-color: #29a329;
+}
+
+.valider:hover{
+  background-color: #47d147;
+}
+
+.erreur{
+  padding-top: 30px;
+  text-align: center;
+  color: red;
+  font-size: 25px;
+}
